@@ -1,0 +1,121 @@
+[2021-07-14 07:53:12Z INFO AgentProcess] Agent package win-x64.
+[2021-07-14 07:53:12Z INFO AgentProcess] Running on Windows (X64).
+[2021-07-14 07:53:12Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.19043.
+[2021-07-14 07:53:12Z INFO AgentProcess] Version: 2.188.4
+[2021-07-14 07:53:12Z INFO AgentProcess] Commit: 51876dc88fa6dd051460b3d27e2f819b28cbda45
+[2021-07-14 07:53:12Z INFO AgentProcess] Culture: es-ES
+[2021-07-14 07:53:12Z INFO AgentProcess] UI Culture: es-ES
+[2021-07-14 07:53:12Z INFO HostContext] Well known directory 'Bin': 'C:\AZ-400\Lab 5\bin'
+[2021-07-14 07:53:12Z INFO HostContext] Well known directory 'Root': 'C:\AZ-400\Lab 5'
+[2021-07-14 07:53:12Z INFO AgentProcess] Validating directory permissions for: 'C:\AZ-400\Lab 5'
+[2021-07-14 07:53:12Z INFO PowerShellExeUtil] Generation: '1'
+[2021-07-14 07:53:12Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2021-07-14 07:53:12Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2021-07-14 07:53:12Z INFO PowerShellExeUtil] Generation: '3'
+[2021-07-14 07:53:12Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.19041.1'
+[2021-07-14 07:53:12Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2021-07-14 07:53:12Z INFO AgentProcess]  'CDF'
+[2021-07-14 07:53:12Z INFO AgentProcess]  'v2.0.50727'
+[2021-07-14 07:53:12Z INFO AgentProcess]  'v3.0'
+[2021-07-14 07:53:12Z INFO AgentProcess]  'v3.5'
+[2021-07-14 07:53:12Z INFO AgentProcess]  'v4'
+[2021-07-14 07:53:12Z INFO AgentProcess]  'v4.0'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Version': '2.0.50727.4927'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v2.0.50727', value name 'Install': '1'
+[2021-07-14 07:53:12Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v2.0.50727'
+[2021-07-14 07:53:12Z INFO AgentProcess] Found version: 2.0.50727
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Version': '3.0.30729.4926'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.0', value name 'Install': '1'
+[2021-07-14 07:53:12Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.0'
+[2021-07-14 07:53:12Z INFO AgentProcess] Found version: 3.0
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Version': '3.5.30729.4926'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5', value name 'Install': '1'
+[2021-07-14 07:53:12Z INFO AgentProcess] Testing directory: 'C:\Windows\Microsoft.NET\Framework64\v3.5'
+[2021-07-14 07:53:12Z INFO AgentProcess] Found version: 3.5
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2021-07-14 07:53:12Z INFO AgentProcess]  'Client'
+[2021-07-14 07:53:12Z INFO AgentProcess]  'Full'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.8.04084'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '528372'
+[2021-07-14 07:53:12Z INFO AgentProcess] Type is System.Int32
+[2021-07-14 07:53:12Z INFO AgentProcess] Interpreted version: 4.7.0
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.8.04084'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '528372'
+[2021-07-14 07:53:12Z INFO AgentProcess] Type is System.Int32
+[2021-07-14 07:53:12Z INFO AgentProcess] Interpreted version: 4.7.0
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2021-07-14 07:53:12Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2021-07-14 07:53:12Z INFO AgentProcess] Found 5 versions:
+[2021-07-14 07:53:12Z INFO AgentProcess]  2.0.50727
+[2021-07-14 07:53:12Z INFO AgentProcess]  3.0
+[2021-07-14 07:53:12Z INFO AgentProcess]  3.5
+[2021-07-14 07:53:12Z INFO AgentProcess]  4.7.0
+[2021-07-14 07:53:12Z INFO AgentProcess]  4.7.0
+[2021-07-14 07:53:12Z INFO AgentProcess] Testing for min NET Framework version: '4.5'
+[2021-07-14 07:53:12Z INFO HostContext] Well known directory 'Bin': 'C:\AZ-400\Lab 5\bin'
+[2021-07-14 07:53:12Z INFO HostContext] Well known directory 'Root': 'C:\AZ-400\Lab 5'
+[2021-07-14 07:53:13Z INFO CommandSettings] Run {
+  "Commit": false,
+  "Diagnostics": false,
+  "RunOnce": false,
+  "StartupType": null,
+  "Help": false,
+  "Version": false
+}
+[2021-07-14 07:53:13Z INFO AgentProcess] Arguments parsed
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Bin': 'C:\AZ-400\Lab 5\bin'
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Root': 'C:\AZ-400\Lab 5'
+[2021-07-14 07:53:13Z INFO HostContext] Well known config file 'Proxy': 'C:\AZ-400\Lab 5\.proxy'
+[2021-07-14 07:53:13Z INFO VstsAgentWebProxy] No proxy setting found.
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Bin': 'C:\AZ-400\Lab 5\bin'
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Root': 'C:\AZ-400\Lab 5'
+[2021-07-14 07:53:13Z INFO HostContext] Well known config file 'Certificates': 'C:\AZ-400\Lab 5\.certificates'
+[2021-07-14 07:53:13Z INFO AgentCertificateManager] No certificate setting found.
+[2021-07-14 07:53:13Z INFO Agent] ExecuteCommand
+[2021-07-14 07:53:13Z INFO ConfigurationStore] currentAssemblyLocation: C:\AZ-400\Lab 5\bin\Agent.Listener.dll
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Bin': 'C:\AZ-400\Lab 5\bin'
+[2021-07-14 07:53:13Z INFO ConfigurationStore] binPath: C:\AZ-400\Lab 5\bin
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Bin': 'C:\AZ-400\Lab 5\bin'
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Root': 'C:\AZ-400\Lab 5'
+[2021-07-14 07:53:13Z INFO ConfigurationStore] RootFolder: C:\AZ-400\Lab 5
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Bin': 'C:\AZ-400\Lab 5\bin'
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Root': 'C:\AZ-400\Lab 5'
+[2021-07-14 07:53:13Z INFO HostContext] Well known config file 'Agent': 'C:\AZ-400\Lab 5\.agent'
+[2021-07-14 07:53:13Z INFO ConfigurationStore] ConfigFilePath: C:\AZ-400\Lab 5\.agent
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Bin': 'C:\AZ-400\Lab 5\bin'
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Root': 'C:\AZ-400\Lab 5'
+[2021-07-14 07:53:13Z INFO HostContext] Well known config file 'Credentials': 'C:\AZ-400\Lab 5\.credentials'
+[2021-07-14 07:53:13Z INFO ConfigurationStore] CredFilePath: C:\AZ-400\Lab 5\.credentials
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Bin': 'C:\AZ-400\Lab 5\bin'
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Root': 'C:\AZ-400\Lab 5'
+[2021-07-14 07:53:13Z INFO HostContext] Well known config file 'Service': 'C:\AZ-400\Lab 5\.service'
+[2021-07-14 07:53:13Z INFO ConfigurationStore] ServiceConfigFilePath: C:\AZ-400\Lab 5\.service
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Bin': 'C:\AZ-400\Lab 5\bin'
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Root': 'C:\AZ-400\Lab 5'
+[2021-07-14 07:53:13Z INFO HostContext] Well known config file 'Autologon': 'C:\AZ-400\Lab 5\.autologon'
+[2021-07-14 07:53:13Z INFO ConfigurationStore] AutoLogonSettingsFilePath: C:\AZ-400\Lab 5\.autologon
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Bin': 'C:\AZ-400\Lab 5\bin'
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Root': 'C:\AZ-400\Lab 5'
+[2021-07-14 07:53:13Z INFO HostContext] Well known config file 'Options': 'C:\AZ-400\Lab 5\.options'
+[2021-07-14 07:53:13Z INFO ConfigurationStore] RuntimeOptionsFilePath: C:\AZ-400\Lab 5\.options
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Bin': 'C:\AZ-400\Lab 5\bin'
+[2021-07-14 07:53:13Z INFO HostContext] Well known directory 'Root': 'C:\AZ-400\Lab 5'
+[2021-07-14 07:53:13Z INFO HostContext] Well known config file 'SetupInfo': 'C:\AZ-400\Lab 5\.setup_info'
+[2021-07-14 07:53:13Z INFO ConfigurationStore] SetupInfoFilePath: C:\AZ-400\Lab 5\.setup_info
+[2021-07-14 07:53:13Z INFO ConfigurationManager] LoadSettings
+[2021-07-14 07:53:13Z INFO ConfigurationStore] IsConfigured()
+[2021-07-14 07:53:13Z INFO ConfigurationStore] IsConfigured: False
+[2021-07-14 07:53:13Z INFO ConfigurationManager] Is configured: False
+[2021-07-14 07:53:13Z ERR  Terminal] WRITE ERROR: Error: Not configured
+[2021-07-14 07:53:13Z ERR  AgentProcess] System.InvalidOperationException: Not configured
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.LoadSettings()
+   at Microsoft.VisualStudio.Services.Agent.Listener.Agent.ExecuteCommand(CommandSettings command)
+   at Microsoft.VisualStudio.Services.Agent.Listener.Program.MainAsync(IHostContext context, String[] args)

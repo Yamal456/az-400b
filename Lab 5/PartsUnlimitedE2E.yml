@@ -1,0 +1,45 @@
+name: $(date:yyyyMMdd)$(rev:.r)
+jobs:
+- job: Phase_1
+  displayName: Phase 1
+  cancelTimeoutInMinutes: 1
+  pool:
+    vmImage: vs2017-win2016
+  steps:
+  - checkout: self
+  - task: NuGetInstaller@0
+    name: NuGetInstaller_1
+    displayName: NuGet restore
+    inputs:
+      solution: '**\*.sln'
+  - task: VSBuild@1
+    name: VSBuild_2
+    displayName: Build solution
+    inputs:
+      vsVersion: 15.0
+      msbuildArgs: /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.stagingDirectory)" /p:IncludeServerNameInBuildInfo=True /p:GenerateBuildInfoConfigFile=true /p:BuildSymbolStorePath="$(SymbolPath)" /p:ReferencePath="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\Pex"
+      platform: $(BuildPlatform)
+      configuration: $(BuildConfiguration)
+  - task: VSTest@1
+    name: VSTest_3
+    displayName: Test Assemblies
+    inputs:
+      testAssembly: '**\$(BuildConfiguration)\*test*.dll;-:**\obj\**'
+      codeCoverageEnabled: true
+      vsTestVersion: latest
+      platform: $(BuildPlatform)
+      configuration: $(BuildConfiguration)
+  - task: CopyFiles@2
+    name: CopyFiles1
+    displayName: Copy Files
+    inputs:
+      SourceFolder: $(build.sourcesdirectory)
+      Contents: '**/*.json'
+      TargetFolder: $(build.artifactstagingdirectory)
+  - task: PublishBuildArtifacts@1
+    name: PublishBuildArtifacts_5
+    displayName: Publish Artifact
+    inputs:
+      PathtoPublish: $(build.artifactstagingdirectory)
+      TargetPath: '\\my\share\$(Build.DefinitionName)\$(Build.BuildNumber)'
+...
